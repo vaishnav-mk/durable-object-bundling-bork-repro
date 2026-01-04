@@ -4,7 +4,7 @@
 
 ## The Bug
 
-When a `DurableObject` class imports from a module that re-exports from `discord.js`, wrangler's bundler fails with:
+When a `DurableObject` class imports from a module that imports from `discord.js`, wrangler's bundler fails with:
 ```
 Uncaught TypeError: Super expression must either be null or a function
 ```
