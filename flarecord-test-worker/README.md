@@ -1,6 +1,6 @@
 # Minimal Wrangler Bug Reproduction
 
-**Issue:** Wrangler bundler breaks `DurableObject` when importing modules that re-export from `discord.js`.
+**Issue:** Wrangler bundler breaks `DurableObject` when importing modules from `discord.js`.
 
 ## The Bug
 
